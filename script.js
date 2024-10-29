@@ -6,7 +6,7 @@ const diasLeft = document.getElementById("diasLeft");
 const nowDate = new Date();
 const anoNovo = new Date(nowDate.getFullYear() + 1, 0, 1);
 
-dataAtual.innerHTML = nowDate.getDate() + "/" + (nowDate.getMonth + 1) + "/" + nowDate.getFullYear();
+dataAtual.innerHTML = nowDate.getDate() + "/" + (nowDate.getMonth() + 1) + "/" + nowDate.getFullYear();
 
 horaAtual.innerHTML = nowDate.getHours() + ":" + nowDate.getMinutes() + ":" + nowDate.getSeconds();
 
