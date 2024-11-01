@@ -4,22 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Atividade </title>
+    <title>Lista de Tarefas</title>
 </head>
 <body>
 
-    <div>
-
-        <h1>Quantos dias faltam para o Ano Novo?</h1>
-
-        <p>Data Atual:<p id="dataAtual"></p> <p id="horaAtual"></p></p>
-        <button id="calcDias">Dias até o Ano Novo</button>
-
-        <p id="diasLeft"></p>
-
+    <div class="tarefaDiv">
+        <h1>Minha lista de tarefas</h1>
+        <input type="text" id="tarefaInput" placeholder="Digite uma nova tarefa...">
+        <button id="addTarefa">Adicionar tarefa</button>
+        <p id="msgErro"></p>
+        <div id="tarefaLista"></div>
     </div>
-
-    <script src="script.js"></script>
     
+    <script src="script.js"></script>
 </body>
 </html>
